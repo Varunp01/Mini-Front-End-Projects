@@ -4,17 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task-Wave</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Goblin+One&family=Shizuru&family=Sofia+Sans+Semi+Condensed:wght@1&family=Vina+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
         <div id="header">
-            <div id="TitleBox">
-                <h1 id="heading">TASK-WAVE</h1>
-                <p id="HeadingPara"></p>
+            <div id="titlebox">
+                <p id="heading">TASK-WAVE</p>
+                <p id="headingpara">This is your personal TO-DO-LIST.<sub>(It uses your local storage, so you can close your tab or window)</sub></p>
             </div>
             <div id="logo">
-                <img src="vector.jpg" alt="LOGO">
+                <img src="vector.png" alt="LOGO" title="LOGO" id="imglogo">
+            </div>
+        </div>
+        <div id="textarea">
+            <div id="btns">
+                <button id="add">Add</button>
+                <button id="clear">Clear</button>
+                <button id="clearall">Clear All</button>
+            </div>
+            <div id="text">
+                <input type="text" placeholder="WRITE YOUR TASK HERE" name="task" >
+            </div>
+            <div id="items">
+                <ul>
+                </ul>
             </div>
         </div>
     </div>
