@@ -21,9 +21,12 @@ body{
 #textarea{
     /* height: 50rem; */
     width: 53rem;
+    /* white-space: nowrap; */
     background-color: black;
+    max-width: 100%;
+    /* overflow: hidden; */
 }
-input{
+.input{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
@@ -33,7 +36,7 @@ input{
     font-size: 2rem;
 
 }
-input::placeholder{
+.input::placeholder{
     font-size: 2rem;
 }
 #headingpara{
@@ -67,6 +70,45 @@ i{
     border-radius: 100%;
     cursor: pointer;
     animation: blink 1s linear 0s infinite alternate;
+}
+ul{
+    /* width:5rem ; */
+    color: white;
+    font-size: 2rem;
+    list-style-type: none;
+    /* overflow-x: scroll; */
+    /* white-space: nowrap; */
+    word-wrap: break-word;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+}
+.checkbox{
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 0.2rem solid grey;
+    background-color: white;
+    border-radius: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+li{
+    position: relative;
+    padding-left: 2rem;
+}
+.ogicheckbox{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+label:hover .checkbox{
+    background-color: grey;
+}
+label input:checked ~ span{
+    background-color: rgba(255, 0, 0, 0.484);
+    border-radius: 100%;
 }
 @keyframes blink {
         0%{
