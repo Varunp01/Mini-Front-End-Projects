@@ -4,3 +4,5 @@
 2-COFFEE MUG ANIMATION - a animation of hot coffee using HTML, CSS.
 
 3-SCROLLING TEXT ANIMATION - animation of website design using HTML, CSS.
+
+4-DIFFERENT-ANIMATIONS - different animations in single website in different timings

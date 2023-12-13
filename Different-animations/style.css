@@ -1,0 +1,151 @@
+.container1{
+    height: 100vh;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+.slip{
+    height: 50%;
+    width: 5%;
+    background-color: black;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.393);
+}
+.red{
+    background-color: red;
+    transform-origin: 50% 95%;
+    animation: anired 1.5s linear 0s infinite alternate;
+}
+.orange{
+    background-color: orange;
+    transform-origin: 50% 95%;
+    animation: aniorange 1.5s linear 0s infinite alternate;
+}
+.yellow{
+    background-color: yellow;
+    transform-origin: 50% 95%;
+    animation: aniyellow 1.5s linear 0s infinite alternate;
+}
+.green{
+    background-color: green;
+    transform-origin: 50% 95%;
+    animation: anigreen 1.5s linear 0s infinite alternate;
+}
+.blue{
+    background-color: blue;
+    transform-origin: 50% 95%;
+    animation: aniblue 1.5s linear 0s infinite alternate;
+}
+.purple{
+    background-color: purple;
+    transform-origin: 50% 95%;
+    animation: anipurple 1.5s linear 0s infinite alternate;
+}
+@keyframes anired {
+    0%{
+        transform: rotate(65deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes aniorange {
+    0%{
+        transform: rotate(40deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes aniyellow {
+    0%{
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes anigreen {
+    0%{
+        transform: rotate(-15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes aniblue {
+    0%{
+        transform: rotate(-40deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes anipurple {
+    0%{
+        transform: rotate(-65deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.red::after{
+    content: "";
+    top: 95%;
+    left: 43%;
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+    z-index: 2;
+    height: 10px;
+    width: 10px;
+}
+div{
+    color: black;
+    font-size: 20px;
+}
+#btns{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+button{
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.612);
+    color: white;
+    border-radius: 10%;
+    border: 2px solid grey;
+}
+button:hover{
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+hr{
+    height: 5px;
+    background-color: black;
+}
+.container2{
+    height: 100vh;
+    width: 100%;
+    background-color: #FAE0C8;
+}
+.mountain1{
+    position: relative;
+  top: 0px;
+  left: 0px;
+  width: 0;
+  height: 0;
+  border-left: 260px solid transparent;
+  border-right: 260px solid transparent;
+  border-bottom: 200px solid #F59452;
+    /* height: 40px;
+    width: 40px;
+    background-color:white;
+    border-top:none;
+    border-bottom: 40px solid black;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent; */
+}
