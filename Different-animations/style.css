@@ -128,14 +128,20 @@ hr{
     background-color: black;
 }
 .container2{
-    height: 100vh;
-    width: 100%;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    height: 380px;
+    width: 220px;
+    border-radius: 30%;
     background-color: #FAE0C8;
+    
 }
 .mountain1{
+    /* overflow: hidden; */
     position: relative;
-  top: 0px;
-  left: 0px;
+  top: 20%;
+  left: -65%;
   width: 0;
   height: 0;
   border-left: 260px solid transparent;
@@ -148,4 +154,61 @@ hr{
     border-bottom: 40px solid black;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent; */
+}
+.zigzag{
+    position: absolute;
+    border-left: 260px solid transparent;
+    border-right: 260px solid transparent;
+    border-bottom: 200px solid #F47A45;
+}
+#zigzag1{
+    transform: rotate(180deg);
+    left: 120px;
+    top: 211px;
+}
+#zigzag2{
+    transform: rotate(180deg);
+    left: 100px;
+    top: 230px;
+}
+#zigzag3{
+    transform: rotate(180deg);
+    left: 80px;
+    top: 250px;
+}
+#zigzag4{
+    transform: rotate(180deg);
+    left: 60px;
+    top: 270px;
+}
+#zigzag5{
+    transform: rotate(180deg);
+    left: 40px;
+    top: 290px;
+}
+#zigzag6{
+    transform: rotate(180deg);
+    left: 20px;
+    top: 310px;
+}
+#zigzag7{
+    transform: rotate(180deg);
+    left: 0px;
+    top: 330px;
+}
+#zigzag8{
+    transform: rotate(53deg);
+    left: -20px;
+    top: 381px;
+}
+.zigzagmountain{
+    overflow: hidden;
+    position: relative;
+    top: 20%;
+    left: -265px;
+    width: 159px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0);
+    transform-origin: 0px 0px;  
+    transform: rotate(-53deg);
 }
