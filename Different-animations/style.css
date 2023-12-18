@@ -127,7 +127,11 @@ hr{
     height: 5px;
     background-color: black;
 }
+/* //////////////////////////////////////////////////////////////////// */
 .container2{
+    background-color: rgb(151, 254, 254);
+}
+.capsule{
     overflow: hidden;
     position: relative;
     left: 50%;
@@ -389,4 +393,168 @@ hr{
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
     border-bottom: 60px solid #CD4D45;
+}
+/* //clouds */
+#cloud1{
+    overflow: hidden;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+    /* background-color: black; */
+}
+#cloud1{
+    position: absolute;
+    top: 70px;
+    left: -100px;
+    background-color: transparent;
+    animation: cloud1animation 10s linear 0s infinite  normal;
+}
+@keyframes cloud1animation {
+    0%{
+        top:70px;
+        left: -150px;
+    }
+    100%{
+        top: 75px;
+        left:230px;
+    }
+}
+#cloudbubble1{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    top: 40px;
+    left: 0px;
+    background-color: white;
+}
+#cloudbubble2{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    top: 30px;
+    left: 15px;
+    background-color: white;
+}
+#cloudbubble3{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    top: 20px;
+    left: 40px;
+    background-color: white;
+}
+#cloudbubble4{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    top: 20px;
+    left: 75px;
+    background-color: white;
+}
+#cloudbubble5{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    top: 30px;
+    left: 70px;
+    background-color: white;
+}
+#cloud2{
+    overflow: hidden;
+    height: 80px;
+    width: 200px;
+    border-radius: 0%;
+    /* background-color: black; */
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    background-color: transparent;
+    animation: cloud2animation 20s linear 0s infinite  normal;
+}
+@keyframes cloud2animation {
+    0%{
+        top:-20px;
+        left: -300px;
+    }
+    100%{
+        top: -20px;
+        left:300px;
+    }
+}
+#cloudbubble6{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    top: 70px;
+    left: 0px;
+    background-color: white;
+}
+#cloudbubble7{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    top: 55px;
+    left: 13px;
+    background-color: white;
+}
+#cloudbubble8{
+    position: absolute;
+    height: 50px;
+    width: 40px;
+    border-radius: 100%;
+    top: 35px;
+    left: 30px;
+    background-color: white;
+}
+#cloudbubble9{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    top: 50px;
+    left: 60px;
+    background-color: white;
+}
+#cloudbubble10{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    top: 30px;
+    left: 90px;
+    background-color: white;
+}
+#cloudbubble11{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    top: 60px;
+    left: 90px;
+    background-color: white;
+}
+#cloudbubble12{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    top: 45px;
+    left: 120px;
+    background-color: white;
+}
+#cloudbubble13{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    top: 50px;
+    left: 150px;
+    background-color: white;
 }
