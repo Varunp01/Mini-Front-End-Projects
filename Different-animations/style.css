@@ -561,3 +561,114 @@ hr{
     left: 150px;
     background-color: white;
 }
+/* //birds */
+.birds{
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
+    /* transform: rotate(70deg); */
+    animation: birds 6s ease 0s infinite normal;
+}
+@keyframes birds {
+    0%{
+        top: 100px;
+        left: 200px;
+    }
+    /* 33%{
+        top: 0px;
+        left: 0px;
+    }
+    66%{
+        top: 0px;
+        left: 0px;
+    } */
+    100%{
+        top: -100px;
+        left: -200px;
+    }
+}
+.body{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+.body1{
+    top: 140px;
+    left: 130px;
+}
+.body2{
+    top: 120px;
+    left: 80px;
+}
+.body3{
+    top: 100px;
+    left: 30px;
+}
+.body4{
+    top: 140px;
+    left: 55px;
+}
+.body5{
+    top: 180px;
+    left: 105px;
+}
+.feather1{
+    /* height: 20px;
+    width: 20px; */
+    /* background-color: red; */
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid black;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    border-radius: 100%;
+    /* transform: rotate(70deg); */
+    /* transform-origin: 10px -2px; */
+    animation: feather1 1s linear 0s infinite alternate;
+}
+@keyframes feather1 {
+    0%{
+        /* transform: rotate(70deg); */
+        /* transform: rotateX(0deg); */
+        transform: rotate3d(0,0,1,70deg);
+        transform-origin: 0% 0%;
+    }
+    100%{
+        transform: rotate3d(1.28571429,0,1,70deg);
+        transform-origin: 0% 0%;
+        /* transform: rotate(70deg); */
+    }
+}
+.feather2{
+    /* height: 20px;
+    width: 20px; */
+    /* background-color: red; */
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid black;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    border-radius: 100%;
+    /* transform: rotate(70deg); */
+    animation: feather2 1s linear 0s infinite alternate;
+}
+@keyframes feather2 {
+        0%{
+            /* transform: rotate(70deg); */
+            /* transform: rotateX(0deg); */
+            transform: rotate3d(0,0,1,70deg);
+            transform-origin: 0% 0%;
+        }
+        100%{
+            transform: rotate3d(1.28571429,0,1,70deg);
+            transform-origin: 0% 0%;
+            /* transform: rotate(70deg); */
+        }
+}
