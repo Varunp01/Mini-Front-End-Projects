@@ -130,10 +130,13 @@ hr{
 /* //////////////////////////////////////////////////////////////////// */
 .container2{
     background-color: rgb(151, 254, 254);
+    height: 400px;
+    width: 100%;
 }
 .capsule{
     overflow: hidden;
     position: relative;
+    top:10px;
     left: 50%;
     height: 380px;
     width: 220px;
