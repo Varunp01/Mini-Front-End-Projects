@@ -676,7 +676,29 @@ hr{
 /* //snow */
 .container3{
     background-color: #241E4E;
+}
+.container3box{
+    background-color: #241e4e00;
     /* height: 400px; */
+    transform-origin: center;
+    animation: shake 4s ease-in-out 0s infinite normal;
+}
+@keyframes shake {
+    0%{
+        transform: rotate(0deg);
+    }
+    8.33333333%{
+        transform: rotate(10deg);
+    }
+    16.6666667%{
+        transform: rotate(-10deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
 .box{
     position: relative;
@@ -809,4 +831,117 @@ hr{
     background-color: cyan;
     top: 50px;
     left: -15px;
+}
+.door{
+    position: relative;
+    left: 140px;
+    top: 40px;
+    height: 80px;
+    width: 40px;
+    background-color: #7f1414;
+    border-right: 2px solid #ef2021;
+}
+.knob{
+    position: relative;
+    top: 40px;
+    left: 2px;
+    height: 4px;
+    width: 4px;
+    border-radius: 100%;
+    background-color: silver;
+
+}
+.onroof1{
+    position: absolute;
+    top: -133px;
+    left: 60px;
+    width: 100px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+.onroof2{
+    position: relative;
+    height: 15px;
+    width: 6px;
+    border-radius: 2px;
+    background-color: white;
+}
+#onroof2i{
+    top: 2px;
+    left: 10px;
+}
+#onroof2ii{
+    top: -7px;
+    left: 55px;
+}
+.onroof3{
+    position: relative;
+    height: 20px;
+    width: 15px;
+    background-color: white;
+    border-radius: 100%;
+    top: -29px;
+    left: 30px;
+}
+.onroof4{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+#onroof4i{
+    top: -100px;
+    left: 60px;
+}
+#onroof4ii{
+    top: -80px;
+    left: 30px;
+}
+#onroof4iii{
+    top: -50px;
+    left: 60px;
+}
+#onroof4iiii{
+    top: -30px;
+    left: 40px;
+}
+.snowfall{
+    position: absolute;
+    /* top: -560px;
+    left: -220px;     */
+    animation: snowfall1 4s linear 0s infinite normal;
+}
+@keyframes snowfall1 {
+    0%{
+        top: -560px;
+        left: -220px;
+        opacity: 0;    
+    }
+    20%{
+        top: -560px;
+        left: -220px;
+        opacity: 0;    
+    }
+    25%{
+        top: -560px;
+        left: -220px;
+        opacity: 1;    
+
+    }
+    90%{
+        top: -460px;
+        left: -120px;    
+        opacity: 1;            
+    }
+    100%{
+        top: -460px;
+        left: -120px;    
+        opacity: 0;    
+    }
+}
+img{
+    height: 600px;
+    width: 600px;
 }
