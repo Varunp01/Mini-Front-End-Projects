@@ -681,6 +681,7 @@ hr{
 .container3box{
     background-color: #241e4e00;
     /* height: 400px; */
+    width: 80%;
     transform-origin: center;
     animation: shake 4s ease-in-out 0s infinite normal;
 }
