@@ -979,15 +979,15 @@ img{
         left: 200px;
     }
     40%{
-        top: 40px;
+        top: 0px;
         left: 12px;
     }
     80%{
-        top: -40px;
+        top:-20px;
         left: -176px;
     }
     100%{
-        top: 40px;
+        top: 0px;
         left: -270px;
     }
 }
@@ -1005,4 +1005,249 @@ img{
 #bubble2{
     top: 200px;
     left: 250px;
+}
+.submarine{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    top: -550px;
+    left: 50px;
+    /* transform: rotate(0deg); */
+    animation: submarine 4s linear 0s infinite alternate;
+}
+@keyframes submarine {
+    0%{
+        transform-origin: bottom 400px;
+        transform: rotate(0deg);
+    }
+    20%{
+        transform-origin: 300px 400px;
+        transform: rotate(-5deg);
+    }
+    40%{
+        transform-origin: 300px 400px;
+        transform: rotate(0deg);
+    }
+    60%{
+        transform-origin: 300px 400px;
+        transform: rotate(5deg);
+    }80%{
+        transform-origin: 300px 400px;
+        transform: rotate(0deg);
+    }
+    100%{
+        transform-origin: 300px 400px;
+        transform: rotate(-5deg);
+    }
+}
+.mainbody{
+    position: relative;
+    height: 100px;
+    width: 200px;
+    top: 100px;
+    border-radius: 50px;
+    left: 50px;
+    background-color: #D93A54;
+}
+.upperbody{
+    position: relative;
+    height: 30px;
+    width: 80px;
+    top: 101px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    left: 110px;
+    background-color: #bd213b;
+}
+.motor{
+    position: relative;
+    height: 100px;
+    width: 40px;
+    top: 0px;
+    border-radius: 10px;
+    left: 20px;
+    background-color: #bd213b;
+}
+.upperlens{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 110px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 10px;
+    left: 150px;
+    background-color: #d93a5400;
+    border-top: 10px solid #d93a54;
+    border-left: 10px solid #d93a54;
+}
+.lamp{
+    position: relative;
+    height: 30px;
+    width: 20px;
+    top: -30px;
+    border-radius: 5px;
+    left: 230px;
+    transform: rotate(45deg);
+    background-color: #bd213b;
+}
+.light{
+    position: relative;
+    height: 0px;
+    width: 0px;
+    top: 370px;
+    /* border-radius: 5px; */
+    left: 230px;
+    border-left: 50px solid rgba(0, 0, 0, 0);
+    border-right: 50px solid rgba(255, 255, 255, 0);
+    border-bottom: 150px solid rgba(255, 255, 255, 0.393);
+    transform: rotate(-45deg);
+    /* z-index: -1; */
+    /* background-color: #D93A54; */
+}
+.bulb{
+    position: relative;
+    height: 20px;
+    width: 70px;
+    top: 5px;
+    left: 5px;
+    border-radius: 60px;
+    background-color: #97182d;
+}
+#bulb1{
+    position: relative;
+    height: 5px;
+    width: 5px;
+    background-color: yellow;
+    border-radius: 100%;
+    top: 05px;
+    left: 30px;
+    animation: bulb 1s ease-in-out 0s infinite alternate;
+}
+#bulb2{
+    position: relative;
+    height: 5px;
+    width: 5px;
+    background-color: yellow;
+    border-radius: 100%;
+    top: 0px;
+    left: 50px;
+    animation: bulb 1s ease-in-out 0s infinite alternate;
+}
+#bulb3{
+    position: relative;
+    height: 5px;
+    width: 5px;
+    background-color: yellow;
+    border-radius: 100%;
+    top: -05px;
+    left: 10px;
+    animation: bulb 1s ease-in-out 0s infinite alternate;
+}
+@keyframes bulb {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.submarinewindow{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(#1e4554,#183642);
+    border-radius: 100%;
+    left: 150px;
+    top: 30px;
+    border: 5px solid #a22a3e;
+}
+.submarineengine{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    /* background: linear-gradient(#1e4554,#183642); */
+    border-radius: 100%;
+    left: 60px;
+    top: 0px;
+    border: 5px solid #c42640;
+    background-color: #761a29;
+}
+.plus1{
+    position: relative;
+    height: 25px;
+    width: 5px;
+    /* background: linear-gradient(#1e4554,#183642); */
+    border-radius: 10px;
+    left: 12px;
+    top: 2px;
+    /* border: 5px solid #ffffff; */
+    background-color: #ffffff;
+    animation: plus1 0.5s linear 0s infinite normal;
+}
+@keyframes plus1 {
+    0%{
+        transform-origin: center;
+        transform: rotate(0deg);
+    }
+    50%{
+        transform-origin: center;
+        transform: rotate(-180deg);
+    }
+    100%{
+        transform-origin: center;
+        transform: rotate(-360deg);
+    }
+}
+.plus2{
+    position: relative;
+    height: 25px;
+    width: 5px;
+    /* background: linear-gradient(#1e4554,#183642); */
+    border-radius: 10px;
+    left: 12px;
+    top: -23px;
+    /* border: 5px solid #ffffff; */
+    background-color: #ffffff;
+    animation: plus2 0.5s linear 0s infinite normal;
+}
+    @keyframes plus2 {
+        0%{
+            transform-origin: center;
+            transform: rotate(-90deg);
+        }
+        50%{
+            transform-origin: center;
+            transform: rotate(-270deg);
+        }
+        100%{
+            transform-origin: center;
+            transform: rotate(-450deg);
+        }
+    }
+.motorbox{
+    height: 80px;
+    width: 30px;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    top: 10px;
+    border-radius: 10px;
+    left: 5px;
+}
+.motor1{
+    height: 15px;
+    width: 30px;
+    background-color: white;
+    position: relative;
+    margin-top: 8px;
+    top: -50px;
+    animation: motor 0.2s linear 0s infinite normal;
+}
+@keyframes motor {
+    0%{
+        top: -50px;
+    }
+    100%{
+        top: -95px;
+    }
 }
