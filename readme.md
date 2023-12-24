@@ -5,4 +5,4 @@
 
 3-SCROLLING TEXT ANIMATION - animation of website design using HTML, CSS.
 
-4-DIFFERENT-ANIMATIONS - different animations in single website in for different web pages
+4-DIFFERENT-ANIMATIONS - different animations in single website in for different web pages using HTMl, CSS.
